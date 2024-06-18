@@ -75,7 +75,96 @@
             </address>
 
 
+            <button class="btn-burger" type="button">
+                <svg class="icon-burger" width="24" height="24">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
+
+
         </div>
+
+
+
+
+
+
+
+        <div class="mobile-menu is-open">
+        
+            <div class="container mobile-menu-container">
+        
+                <button class="mob-menu-close-btn" type="button">
+                    <svg class="mob-menu-close-btn-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+        
+                <nav class="mob-navig">
+                    <ul class="mob-navig-menu">
+                        <li class="mob-navig-menu-item">
+                            <a href="./index.html" target="_blank" class="mob-navig-link color-text">Studio
+                            </a>
+                        </li>
+                        <li class="mob-navig-menu-item">
+                            <a href="" class="mob-navig-link">Portfolio</a>
+                        </li>
+                        <li class="mob-navig-menu-item">
+                            <a href="" class="mob-navig-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <address class="mob-address">
+                    <ul class="mob-menu-contact">
+                        <li class="mob-address-menu-item">
+                            <a href="tel:+110001111111" class="mob-contact-link color-mob-text">+11 (000) 111-11-11
+                            </a>
+                        </li>
+                        <li class="mob-address-menu-item">
+                            <a href="mailto:info@devstudio.com" class="mob-contact-link">info@devstudio.com
+                            </a>
+                        </li>
+                    </ul>
+                </address>
+        
+        
+                <ul class="mob-soc-menu">
+                    <li class="mob-soc-menu-item">
+                        <a href="" class="mob-soc-menu-links">
+                            <svg class="mob-soc-menu-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-inst"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-soc-menu-item">
+                        <a href="" class="mob-soc-menu-links">
+                            <svg class="mob-soc-menu-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twit"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-soc-menu-item">
+                        <a href="" class="mob-soc-menu-links">
+                            <svg class="mob-soc-menu-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-faceb"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-soc-menu-item">
+                        <a href="" class="mob-soc-menu-links">
+                            <svg class="mob-soc-menu-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-lin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+        
+            </div>
+        
+        </div>
+
+
 
 
     </header>
@@ -85,7 +174,7 @@
     <main>
 
 
-        <section class="hero sect-padding">
+        <!-- <section class="hero sect-padding">
 
 
             <div class="container">
@@ -104,11 +193,11 @@
             </div>
 
 
-        </section>
+        </section> -->
 
 
 
-        <section class="benf-sect sect-padding">
+        <!-- <section class="benf-sect sect-padding">
 
 
             <div class="container">
@@ -179,11 +268,11 @@
             </div>
 
 
-        </section>
+        </section> -->
 
 
 
-        <section class="team-sect sect-padding">
+        <!-- <section class="team-sect sect-padding">
 
 
             <div class="container">
@@ -194,13 +283,21 @@
                 <ul class="team-sect-menu">
 
                     <li class="team-sect-item">
+
                         <img class="team-sect-image" 
-                        src="./images/img1.jpg" alt="Mark" 
+                        srcset="./images/team/team1-min.jpg 1x, ./images/team/team1@2x-min.jpg 2x" 
+                        src="./images/team/team1-min.jpg" 
+                        alt="Mark" 
                         width="264" height="260">
+
                         <div class="team-text-box">
+
                             <h3 class="team-sect-subtitle subtitles">Mark Guerrero</h3>
+
                             <p class="team-sect-text texts">Product Designer</p>
+
                             <ul class="social-link-menu-t">
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.instagram.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -208,6 +305,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://twitter.com" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -215,6 +313,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.facebook.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -222,6 +321,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.linkedin.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -229,18 +329,29 @@
                                         </svg>
                                     </a>
                                 </li>
+
                             </ul>
+
                         </div>
+
                     </li>
 
                     <li class="team-sect-item">
+
                         <img class="team-sect-image" 
-                        src="./images/img2.jpg" alt="Tom" 
+                        srcset="./images/team/team2-min.jpg 1x, ./images/team/team2@2x-min.jpg 2x" 
+                        src="./images/team/team2-min.jpg" 
+                        alt="Tom" 
                         width="264" height="260">
+
                         <div class="team-text-box">
+
                             <h3 class="team-sect-subtitle subtitles">Tom Ford</h3>
+
                             <p class="team-sect-text texts">Frontend Developer</p>
+
                             <ul class="social-link-menu-t">
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.instagram.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -248,6 +359,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://twitter.com" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -255,6 +367,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.facebook.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -262,6 +375,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.linkedin.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -269,18 +383,29 @@
                                         </svg>
                                     </a>
                                 </li>
+
                             </ul>
+
                         </div>
+
                     </li>
 
                     <li class="team-sect-item">
+
                         <img class="team-sect-image" 
-                        src="./images/img3.jpg" alt="Camila" 
+                        srcset="./images/team/team3-min.jpg 1x, ./images/team/team3@2x-min.jpg 2x" 
+                        src="./images/team/team3-min.jpg" 
+                        alt="Camila" 
                         width="264" height="260">
+
                         <div class="team-text-box">
+
                             <h3 class="team-sect-subtitle subtitles">Camila Garcia</h3>
+
                             <p class="team-sect-text texts">Marketing</p>
+
                             <ul class="social-link-menu-t">
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.instagram.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -288,6 +413,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://twitter.com" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -295,6 +421,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.facebook.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -302,6 +429,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.linkedin.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -309,18 +437,29 @@
                                         </svg>
                                     </a>
                                 </li>
+
                             </ul>
+
                         </div>
+
                     </li>
 
                     <li class="team-sect-item">
+
                         <img class="team-sect-image" 
-                        src="./images/img4.jpg" alt="Daniel" 
+                        srcset="./images/team/team4-min.jpg 1x, ./images/team/team4@2x-min.jpg 2x" 
+                        src="./images/team/team4-min.jpg" 
+                        alt="Daniel" 
                         width="264" height="260">
+
                         <div class="team-text-box">
+
                             <h3 class="team-sect-subtitle subtitles">Daniel Wilson</h3>
+
                             <p class="team-sect-text texts">UI Designer</p>
+
                             <ul class="social-link-menu-t">
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.instagram.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -328,6 +467,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://twitter.com" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -335,6 +475,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.facebook.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -342,6 +483,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="t-social">
                                     <a class="t-soc-links" href="https://www.linkedin.com/" target="_blank" rel="">
                                         <svg class="t-soc-icons" width="16" height="16">
@@ -349,8 +491,11 @@
                                         </svg>
                                     </a>
                                 </li>
+
                             </ul>
+
                         </div>
+
                     </li>
 
                 </ul>
@@ -359,12 +504,12 @@
             </div>
 
 
-        </section>
+        </section> -->
 
 
 
 
-        <section class="portf-sect sect-padding">
+        <!-- <section class="portf-sect sect-padding">
 
 
             <div class="container">
@@ -375,105 +520,195 @@
                 <ul class="portf-sect-menu">
 
                     <li class="portf-sect-item">
+
                         <div class="portf-overlay-wrapper">
-                            <img class="portf-sect-image" 
-                            src="./images/ben1.jpg" alt="bank-app" width="360" height="300">
+
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/portfolio/portf-desk1-min.jpg 1x, 
+                                    ./images/portfolio/portf-desk1@2x-min.jpg 2x" />
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portf-tab1-min.jpg 1x, 
+                                    ./images/portfolio/portf-tab1@2x-min.jpg 2x" />
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/portfolio/portf-mob1-min.jpg 1x, 
+                                    ./images/portfolio/portf-mob1@2x-min.jpg 2x" />
+                                <img src="./images/portfolio/portf-desk1-min.jpg" alt="App Type" />
+                            </picture>
+                            
                             <p class="text-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                                 · Cloud Storage App
                             </p>
+
                         </div>
                         
                         <div class="portf-text-box">
                             <h3 class="portf-sect-subtitle subtitles">Banking App</h3>
                             <p class="portf-sect-text texts">App</p>
                         </div>
+
                     </li>
 
                     <li class="portf-sect-item">
+
                         <div class="portf-overlay-wrapper">
-                            <img class="portf-sect-image" 
-                            src="./images/ben2.jpg" alt="payment" width="360" height="300">
+
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/portfolio/portf-desk2-min.jpg 1x, 
+                                    ./images/portfolio/portf-desk2@2x-min.jpg 2x" />
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portf-tab2-min.jpg 1x, 
+                                    ./images/portfolio/portf-tab2@2x-min.jpg 2x" />
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/portfolio/portf-mob2-min.jpg 1x, 
+                                    ./images/portfolio/portf-mob2@2x-min.jpg 2x" />
+                                <img src="./images/portfolio/portf-desk2-min.jpg" alt="QR code" />
+                            </picture>
+
                             <p class="text-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                                 · Cloud Storage App
                             </p>
+
                         </div>
 
                         <div class="portf-text-box">
                             <h3 class="portf-sect-subtitle subtitles">Cashless Payment</h3>
                             <p class="portf-sect-text texts">Marketing</p>
                         </div>
+
                     </li>
 
                     <li class="portf-sect-item">
+
                         <div class="portf-overlay-wrapper">
-                            <img class="portf-sect-image" 
-                            src="./images/ben3.jpg" alt="meditation-app" width="360" height="300">
+
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/portfolio/portf-desk3-min.jpg 1x, 
+                                    ./images/portfolio/portf-desk3@2x-min.jpg 2x" />
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portf-tab3-min.jpg 1x, 
+                                    ./images/portfolio/portf-tab3@2x-min.jpg 2x" />
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/portfolio/portf-mob3-min.jpg 1x, 
+                                    ./images/portfolio/portf-mob3@2x-min.jpg 2x" />
+                                <img src="./images/portfolio/portf-desk3-min.jpg" alt="Laptop and phone" />
+                            </picture>
+
                             <p class="text-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                                 · Cloud Storage App
                             </p>
+
                         </div>
 
                         <div class="portf-text-box">
                             <h3 class="portf-sect-subtitle subtitles">Meditation App</h3>
                             <p class="portf-sect-text texts">App</p>
                         </div>
+
                     </li>
 
                     <li class="portf-sect-item">
+
                         <div class="portf-overlay-wrapper">
-                            <img class="portf-sect-image" 
-                            src="./images/ben4.jpg" alt="taxi-service" width="360" height="300">
+
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/portfolio/portf-desk4-min.jpg 1x, 
+                                    ./images/portfolio/portf-desk4@2x-min.jpg 2x" />
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portf-tab4-min.jpg 1x, 
+                                    ./images/portfolio/portf-tab4@2x-min.jpg 2x" />
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/portfolio/portf-mob4-min.jpg 1x, 
+                                    ./images/portfolio/portf-mob4@2x-min.jpg 2x" />
+                                <img src="./images/portfolio/portf-desk4-min.jpg" alt="Driver" />
+                            </picture>
+
                             <p class="text-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                                 · Cloud Storage App
                             </p>
+
                         </div>
 
                         <div class="portf-text-box">
                             <h3 class="portf-sect-subtitle subtitles">Taxi Service</h3>
                             <p class="portf-sect-text texts">Marketing</p>
                         </div>
+
                     </li>
 
                     <li class="portf-sect-item">
+
                         <div class="portf-overlay-wrapper">
-                            <img class="portf-sect-image" 
-                            src="./images/ben5.jpg" alt="screen" width="360" height="300">
+
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/portfolio/portf-desk5-min.jpg 1x, 
+                                    ./images/portfolio/portf-desk5@2x-min.jpg 2x" />
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portf-tab5-min.jpg 1x, 
+                                    ./images/portfolio/portf-tab5@2x-min.jpg 2x" />
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/portfolio/portf-mob5-min.jpg 1x, 
+                                    ./images/portfolio/portf-mob5@2x-min.jpg 2x" />
+                                <img src="./images/portfolio/portf-desk5-min.jpg" alt="App theme" />
+                            </picture>
+
                             <p class="text-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                                 · Cloud Storage App
                             </p>
+
                         </div>
 
                         <div class="portf-text-box">
                             <h3 class="portf-sect-subtitle subtitles">Screen Illustrations</h3>
                             <p class="portf-sect-text texts">Design</p>
                         </div>
+
                     </li>
 
                     <li class="portf-sect-item">
+
                         <div class="portf-overlay-wrapper">
-                            <img class="portf-sect-image" 
-                            src="./images/ben6.jpg" alt="girl" width="360" height="300">
+
+                            <picture>
+                                <source media="(min-width: 1158px)"
+                                    srcset="./images/portfolio/portf-desk6-min.jpg 1x, 
+                                    ./images/portfolio/portf-desk6@2x-min.jpg 2x" />
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/portfolio/portf-tab6-min.jpg 1x, 
+                                    ./images/portfolio/portf-tab6@2x-min.jpg 2x" />
+                                <source media="(max-width: 767px)"
+                                    srcset="./images/portfolio/portf-mob6-min.jpg 1x, 
+                                    ./images/portfolio/portf-mob6@2x-min.jpg 2x" />
+                                <img src="./images/portfolio/portf-desk6-min.jpg" alt="Girl" />
+                            </picture>
+
                             <p class="text-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task
                                 Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                                 · Cloud Storage App
                             </p>
+
                         </div>
 
                         <div class="portf-text-box">
                             <h3 class="portf-sect-subtitle subtitles">Online Courses</h3>
                             <p class="portf-sect-text texts">Marketing</p>
                         </div>
+
                     </li>
 
                 </ul>
@@ -482,14 +717,14 @@
             </div>
 
 
-        </section>
+        </section> -->
 
 
     </main>
 
 
 
-    <footer class="footer-sect">
+    <!-- <footer class="footer-sect">
 
 
         <div class="container footer-container">
@@ -577,7 +812,7 @@
         </div>
 
 
-    </footer>
+    </footer> -->
 
 
 
@@ -586,7 +821,7 @@
 
 
 
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
 
         <div class="modal">
 
@@ -683,7 +918,7 @@
 
         </div>
 
-    </div>
+    </div> -->
 
 
 
