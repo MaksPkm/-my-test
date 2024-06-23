@@ -100,6 +100,7 @@ button {
 }
 
 .log-mar {
+    display: block;
     padding: 16px 0;
 }
 
@@ -442,7 +443,7 @@ button {
 
 
 .hero {
-    max-width: 320px;
+    /* max-width: 320px; */
     padding: 72px 0;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -465,7 +466,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
     .hero {
-        max-width: 768px;
+        /* max-width: 768px; */
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url(../images/back-tab-min.jpg);
@@ -1078,6 +1079,7 @@ screen and (min-resolution: 2dppx) {
         padding-left: 15px;
         padding-right: 15px;
         flex-wrap: nowrap;
+        gap: 0;
     }
 
 
